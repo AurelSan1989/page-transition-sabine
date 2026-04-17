@@ -4,12 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sabine Miniconi - Nouveau Site</title>
-    <meta http-equiv="refresh" content="8; URL='https://sabine-miniconi.fr/'" />
+    <!-- <meta http-equiv="refresh" content="8; URL='https://sabine-miniconi.fr/'" /> -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet">
     <style>
-        body { font-family: sans-serif; text-align: center; padding: 50px; background-color: #f8f9fa; color: #333; }
-        .box { max-width: 500px; margin: auto; background: white; padding: 40px; border-radius: 10px; shadow: 0 4px 10px rgba(0,0,0,0.1); border: 1px solid #ddd; }
-        .btn { display: inline-block; padding: 12px 24px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; margin-top: 20px; font-weight: bold; }
-        .old-link { margin-top: 40px; font-size: 0.8em; color: #888; }
+        body { 
+            font-family: "Bodoni Moda", sans-serif; 
+            text-align: center; 
+            padding: 50px; 
+            background-color: #530000; 
+            color: rgba(255, 255, 255, 0.7); }
+        .box { 
+            max-width: 500px; 
+            margin: auto; 
+            background: #3a0000; 
+            padding: 40px; 
+            border-radius: 10px; 
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+            border: 1px solid #ddd; }
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: white; /* Fond blanc */
+            color: #4A0000; /* Le bordeaux foncé de ton background (ou le rouge vif si tu préfères) */
+            text-decoration: none;
+            border: 2px solid #4A0000; /* Bordure de la même couleur que le texte */
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 20px;
+            /* Petit effet au survol pour le faire réagir */
+            transition: background-color 0.3s ease, color 0.3s ease; }
+        .btn:hover {
+            background-color: #4A0000; /* Inversion au survol */
+            color: white;
+        }
+        .old-link { margin-top: 40px; 
+            font-size: 0.8em; 
+            color: #888; }
+        .old-link a {
+            color: rgba(255, 255, 255, 0.7); }
     </style>
 </head>
 <body>
@@ -19,7 +53,7 @@
         <a href="https://sabine-miniconi.fr/" class="btn">Accéder au nouveau site</a>
         <p><small>Redirection automatique dans quelques secondes...</small></p>
         <div class="old-link">
-            Pour les archives de 2011, <a href="index-archive.htm">cliquez ici</a>.
+            Pour les nostalgiques, <a href="http://sab.pianiste.free.fr/">cliquez ici</a>.
         </div>
     </div>
 </body>
